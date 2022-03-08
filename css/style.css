@@ -127,6 +127,8 @@ h3{font-size:var(--fs-h3)}
 /*Header*/
 
 header{
+	width: 100%;
+
 	display: flex;
 	justify-content: space-between;
 	padding: 1em;
@@ -138,6 +140,9 @@ header{
 
 .nav{
 	position: fixed;
+	
+	
+
 	background: var(--clr-dark);
 	color: var(--clr-light);
 	top: 0;
@@ -470,6 +475,7 @@ header{
 /*Footer*/
 
 .footer{
+	width: 100%;
 	background: #111;
 	color: var(--clr-accent);
 	text-align:center;
