@@ -590,7 +590,7 @@ header{
 	justify-content: center;
 	align-items: center;
 	background: #12475f;
-	background-image: url(../background.jpg);
+	background-image: url(/pictures/background.jpg);
 	color: #eee;
 	flex-wrap: wrap;
 
