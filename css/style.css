@@ -675,6 +675,7 @@ header{
 	letter-spacing: 0.1rem;
 	text-align: center;
 	overflow: hidden;
+	
   }
   .container p span.typed-text {
 	font-weight: normal;
@@ -698,3 +699,4 @@ header{
 	99% { background-color: transparent; }
 	100%  { background-color: #ccc; }
   }
+
