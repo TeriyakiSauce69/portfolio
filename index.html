@@ -13,6 +13,20 @@
 		<link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
 		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.css" rel="stylesheet">
+
+		<script>
+			
+			function dr_bounce(){
+				$("button").addClass("animated bounce");
+				$(".btn").addClass("animated shake");
+			}
+
+
+
+		  </script>
+
 		
 		
 		<link rel = "stylesheet" href = "css/style.css">
@@ -104,7 +118,7 @@
 			
 		</div>
 
-
+		
 			
 		<!-- My Services -->
 		
@@ -124,10 +138,59 @@
 
 		
 			<div class="resume-download">
-				<a href= "Llacki BP.docx" class = "btn" download>Download Resume</a>
+				<a href= "Llacki BP.docx" onclick="dr_bounce()" class = "btn" download>Download Resume</a>
 				</div>
 		
-		
+				<table>
+					<caption>My RelationShip with Software Development</caption>
+					<thead>
+					  <tr>
+						<th scope="col"></th>
+
+					  </tr>
+
+					</thead>
+					<tbody>
+					  <tr>
+						<th scope="row">I hate programming.</th>
+						<td><p style="font-size:50px">&#128545;</p></td>
+					  </tr>
+
+
+					  <tr>
+						<th scope="row">I hate programming.</th>
+						<td><p style="font-size:50px">&#128545;</p></td>
+
+					  </tr>
+				  
+						
+				  
+					  <tr>
+						<th scope="row">I hate programming</th>
+						<td><p style="font-size:50px">&#128545;</p></td>
+
+					  </tr>
+					  <tr>
+						<th scope="row">I hate programming</th>
+						<td><p style="font-size:50px">&#128545;</p></td>
+
+					  </tr>
+
+					  <tr>
+						<th scope="row">It worked!</th>
+						<td><p style="font-size:50px">&#128558;</p></td>
+
+					  </tr>
+
+					  <tr>
+						<th scope="row">I love programming!</th>
+						<td><p style="font-size:50px">&#128526;</p></td>
+
+					  </tr>
+					</tbody>
+
+
+				  </table>
 		
 		
 		<section class = "my-work" id = "work">
@@ -152,9 +215,24 @@
 				</a>
 				
 			</div>
+		</section>
+
+		<section class="color_changer">
+			
+			<label class ="lab" for="colors">Choose background color:</label>
+			<select class="dropdown" name="colors" onchange="changeColor(this)">
+				<option value="red">Red</option>
+				<option value="blue">Blue</option>
+				<option value="yellow">Yellow</option>
+				<option value="green">Green</option>
+				<option value="turquoise">Turquoise</option>
+				<option value="lightblue">Light Blue</option>
+				<option value="pink">Pink</option>
+				<option value="purple">Purple</option>
+				</select>
 			
 		</section>
-		
+
 		<footer class = "footer">
 			<a href = "mailto:guccifuji73@gmail.com" class = "footer__link">guccifuji73@gmail</a>
 			<ul class ="social-list">

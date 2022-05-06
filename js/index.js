@@ -11,6 +11,8 @@ const newTextDelay = 2000; // Delay between current and next text
 let textArrayIndex = 0;
 let charIndex = 0;
 
+
+
 navToggle.addEventListener('click', () => {
 	document.body.classList.toggle('nav-open');
 });
@@ -20,6 +22,13 @@ navLinks.forEach(link => {
 		document.body.classList.remove('nav-open');
 	})
 })
+
+
+function changeColor(event)
+{
+    var color = event.value;
+    document.getElementsByTagName('BODY')[0].style.backgroundColor=color;
+}
 
 function type() {
 	if (charIndex < textArray[textArrayIndex].length) {
